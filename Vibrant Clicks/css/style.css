@@ -1,0 +1,252 @@
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+#title {
+    background-color: #fff;
+    text-align: left;
+}
+
+  .Logo {
+    width:17%;
+   
+}
+
+h1,h2,h3,h4,h5,h6 {
+ font-family: "Montserrat";
+}
+
+
+h2 {
+    text-decoration: underline;
+   
+}
+
+   p {
+    color: black;
+   }
+
+
+   /* Headings */
+  
+   .big-heading {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-top: 23px;
+    margin-right: 0px;
+    margin-bottom: -15px;
+    margin-left: 0px;
+    color:black; 
+}
+
+   .section-heading {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight:bold;
+   }
+
+   /* Container */
+
+   .container-fluid {
+    padding: 4% 15%;  
+    
+ }
+
+/* When you only have three values, the first:top second:left & right and the last:bottom as shown above. */
+
+/* Navigation Bar */ 
+
+/* .navbar {
+    padding-bottom: 4.5rem;
+}  The padding-bottom is used to increase spacing between the h1 element and the rest of the text below it. */
+
+
+/* Sections */
+
+
+
+.colored-section { 
+    background-color:#fff; 
+    
+   
+}
+
+
+.white-section {
+    background-color:#fff; 
+}
+
+
+/*
+.navbar {
+    padding: 0 0 1.5rem;
+   }
+*/
+
+.navbar-brand {
+ font-family: "Ubuntu";
+ font-size: 2.5rem;
+ font-weight: bold;
+    
+}
+
+.nav-item {
+    padding: 0 20px;
+   }
+   
+
+.nav-link {
+ font-family: "Montserrat";
+ font-weight: 400;
+ color: #2C2C2C;
+}
+
+
+
+
+   /* Title Section */
+
+/* 
+ #title.container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+Because the rule above; #title.container-fluid... is more specific, 
+it overrides the previous rule of padding in the .container-fluid.
+This is because the ID = "title" and the Class = "container-fluid"
+were merged using the Advanced CSS concept of combining selectors: IDs + Classes */
+
+
+
+
+/* Features Section  #2C2C2C;  */
+
+#features {
+ /* z-index: 1;  The z-index here can be removed and the Features Section will still stack on 
+ top of the Title Image, partially obsuring the (title-image) iphone image because 
+ the Features Section is below the Title Image
+ section in the HTML flow. */
+ position: relative;
+ background-color: #fff;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.feature-box {
+ padding: 4.5%;
+   
+   
+}
+
+
+ /* There is a hierachy between the different types of CSS selectors.
+IDs are the most specific and their styles get applied preferentially above anything else, 
+next comes Classes and finally other HTML elements e.g H1, H2, paragraphs (p) etc. */
+
+
+.carousel-image {
+ width: 100%;
+ height: auto;
+ margin: 20px; 
+   
+}
+
+
+
+
+ /* There is a hierachy between the different types of CSS selectors.
+IDs are the most specific and their styles get applied preferentially above anything else, 
+next comes Classes and finally other HTML elements e.g H1, H2, paragraphs (p) etc. */
+
+
+.about-me {
+    
+    margin-top: -98px;
+    margin-bottom: -110px;
+    line-height: 2.2;
+   /* text-align: center;
+      margin: -2% 0 3% 3%;
+      width: 60%;
+      float: left;
+   */ 
+    padding: 100px;
+   
+}
+
+ 
+/*
+.about-me-line-height {
+    line-height: 1.5;
+    font-size: 0.5rem;
+}
+
+
+.sidebar {
+    width: 26%;
+    float: left;
+    margin: 4%;
+}
+*/
+
+.one-third-port {
+    width: 29.333%;
+    padding: 5%;
+    float: left;
+    text-align: center;
+    height: auto;
+
+}
+
+/**/
+@media (max-width: 991px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+  }
+
+}
+
+
+
+/* Call to Action */
+
+
+/* Footer */
+
+#mail {
+    font-size: 40px;
+}
+
+#insta {
+    font-size: 40px;
+}
+
+a {
+padding-bottom: 3%;
+margin: 15px 15px;
+color:black;
+text-decoration: none;
+}
+
+a:hover{
+    color:rgb(226, 169, 10);
+}
+#footer {
+  
+    font-size: 15px;;
+}
+
+
+
