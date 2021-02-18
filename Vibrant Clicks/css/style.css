@@ -5,12 +5,12 @@ body {
 }
 
 #title {
-    background-color: #fff;
+    background-color: #black;
     text-align: left;
 }
 
   .Logo {
-    width:17%;
+    width:25%;
    
 }
 
@@ -25,7 +25,7 @@ h2 {
 }
 
    p {
-    color: black;
+    color: #black;
    }
 
 
@@ -146,11 +146,6 @@ were merged using the Advanced CSS concept of combining selectors: IDs + Classes
 }
 
 
- /* There is a hierachy between the different types of CSS selectors.
-IDs are the most specific and their styles get applied preferentially above anything else, 
-next comes Classes and finally other HTML elements e.g H1, H2, paragraphs (p) etc. */
-
-
 .carousel-image {
  width: 100%;
  height: auto;
@@ -158,12 +153,6 @@ next comes Classes and finally other HTML elements e.g H1, H2, paragraphs (p) et
    
 }
 
-
-
-
- /* There is a hierachy between the different types of CSS selectors.
-IDs are the most specific and their styles get applied preferentially above anything else, 
-next comes Classes and finally other HTML elements e.g H1, H2, paragraphs (p) etc. */
 
 
 .about-me {
