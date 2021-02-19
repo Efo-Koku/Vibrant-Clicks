@@ -4,28 +4,37 @@ body {
     text-align: center;
 }
 
+/* */
 #title {
-    background-color: #black;
-    text-align: left;
+   background-color: black; 
+   text-align: left;
+ 
 }
+ 
 
-  .Logo {
-    width:25%;
+ .Logo {
+    width: 35%;
+   
    
 }
+
+ 
 
 h1,h2,h3,h4,h5,h6 {
  font-family: "Montserrat";
 }
 
+/*
 
 h2 {
     text-decoration: underline;
    
 }
 
+*/
+
    p {
-    color: #black;
+    color: black;
    }
 
 
@@ -49,18 +58,28 @@ h2 {
     font-weight:bold;
    }
 
-   /* Container */
+   /* Container 
 
-   .container-fluid {
+    .container-fluid {
     padding: 4% 15%;  
     
  }
+   
+   */
 
-/* When you only have three values, the first:top second:left & right and the last:bottom as shown above. */
+   .container-fluid {
+    padding:  1% 15%;  
+    
+ }
+
+ 
+
+/* When you only have three values, the first: top second:left & right and the last:bottom as shown above. */
 
 /* Navigation Bar */ 
 
-/* .navbar {
+/* .
+ {
     padding-bottom: 4.5rem;
 }  The padding-bottom is used to increase spacing between the h1 element and the rest of the text below it. */
 
@@ -71,6 +90,7 @@ h2 {
 
 .colored-section { 
     background-color:#fff; 
+    
     
    
 }
@@ -94,10 +114,12 @@ h2 {
     
 }
 
+/**/
+
 .nav-item {
-    padding: 0 20px;
+    padding: 0 50px;
    }
-   
+
 
 .nav-link {
  font-family: "Montserrat";
@@ -122,14 +144,9 @@ were merged using the Advanced CSS concept of combining selectors: IDs + Classes
 
 
 
-
-/* Features Section  #2C2C2C;  */
+/* Features Section */
 
 #features {
- /* z-index: 1;  The z-index here can be removed and the Features Section will still stack on 
- top of the Title Image, partially obsuring the (title-image) iphone image because 
- the Features Section is below the Title Image
- section in the HTML flow. */
  position: relative;
  background-color: #fff;
 }
@@ -139,50 +156,63 @@ were merged using the Advanced CSS concept of combining selectors: IDs + Classes
     font-weight: bold;
 }
 
-.feature-box {
- padding: 4.5%;
-   
-   
+
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
 }
+
+
 
 
 .carousel-image {
  width: 100%;
  height: auto;
- margin: 20px; 
+ margin: auto; 
+ text-align: center;
+ padding-bottom: 30px;
    
 }
 
 
-
 .about-me {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 10px;
+    padding: 30px;
     
-    margin-top: -98px;
-    margin-bottom: -110px;
-    line-height: 2.2;
+    
    /* text-align: center;
       margin: -2% 0 3% 3%;
       width: 60%;
       float: left;
+      line-height: 2.2;
+      margin-top: -98px;
+      margin-bottom: -110px;
    */ 
-    padding: 100px;
+    
    
 }
 
  
+.my-story {
+    margin: 1rem auto;
+    text-align: justify;
+    padding:0;
+}
+
 /*
 .about-me-line-height {
     line-height: 1.5;
     font-size: 0.5rem;
 }
 
-
 .sidebar {
     width: 26%;
     float: left;
-    margin: 4%;
-}
 */
+
 
 .one-third-port {
     width: 29.333%;
@@ -208,7 +238,6 @@ were merged using the Advanced CSS concept of combining selectors: IDs + Classes
 }
 
 
-
 /* Call to Action */
 
 
@@ -222,6 +251,7 @@ were merged using the Advanced CSS concept of combining selectors: IDs + Classes
     font-size: 40px;
 }
 
+
 a {
 padding-bottom: 3%;
 margin: 15px 15px;
@@ -230,8 +260,9 @@ text-decoration: none;
 }
 
 a:hover{
-    color:rgb(226, 169, 10);
+    color:rgb(10, 96, 226);
 }
+
 #footer {
   
     font-size: 15px;;
