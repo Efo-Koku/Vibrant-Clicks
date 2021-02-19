@@ -15,23 +15,13 @@ body {
  .Logo {
     width: 35%;
    
-   
 }
 
- 
 
 h1,h2,h3,h4,h5,h6 {
  font-family: "Montserrat";
 }
 
-/*
-
-h2 {
-    text-decoration: underline;
-   
-}
-
-*/
 
    p {
     color: black;
@@ -58,41 +48,18 @@ h2 {
     font-weight:bold;
    }
 
-   /* Container 
-
-    .container-fluid {
-    padding: 4% 15%;  
-    
- }
-   
-   */
+   /* Container */
 
    .container-fluid {
     padding:  1% 15%;  
     
  }
 
- 
-
-/* When you only have three values, the first: top second:left & right and the last:bottom as shown above. */
-
-/* Navigation Bar */ 
-
-/* .
- {
-    padding-bottom: 4.5rem;
-}  The padding-bottom is used to increase spacing between the h1 element and the rest of the text below it. */
-
 
 /* Sections */
 
-
-
 .colored-section { 
     background-color:#fff; 
-    
-    
-   
 }
 
 
@@ -100,12 +67,6 @@ h2 {
     background-color:#fff; 
 }
 
-
-/*
-.navbar {
-    padding: 0 0 1.5rem;
-   }
-*/
 
 .navbar-brand {
  font-family: "Ubuntu";
@@ -126,22 +87,6 @@ h2 {
  font-weight: 400;
  color: #2C2C2C;
 }
-
-
-
-
-   /* Title Section */
-
-/* 
- #title.container-fluid {
-    padding: 3% 15% 7%;
-    text-align: left;
-}
-Because the rule above; #title.container-fluid... is more specific, 
-it overrides the previous rule of padding in the .container-fluid.
-This is because the ID = "title" and the Class = "container-fluid"
-were merged using the Advanced CSS concept of combining selectors: IDs + Classes */
-
 
 
 /* Features Section */
@@ -175,24 +120,15 @@ were merged using the Advanced CSS concept of combining selectors: IDs + Classes
    
 }
 
+.thumbnail {
+    margin-bottom: 30px;
+}
 
 .about-me {
     font-size: 1rem;
     line-height: 1.5;
     margin-top: 10px;
-    padding: 30px;
-    
-    
-   /* text-align: center;
-      margin: -2% 0 3% 3%;
-      width: 60%;
-      float: left;
-      line-height: 2.2;
-      margin-top: -98px;
-      margin-bottom: -110px;
-   */ 
-    
-   
+    padding: 30px;  
 }
 
  
@@ -201,17 +137,6 @@ were merged using the Advanced CSS concept of combining selectors: IDs + Classes
     text-align: justify;
     padding:0;
 }
-
-/*
-.about-me-line-height {
-    line-height: 1.5;
-    font-size: 0.5rem;
-}
-
-.sidebar {
-    width: 26%;
-    float: left;
-*/
 
 
 .one-third-port {
@@ -223,7 +148,8 @@ were merged using the Advanced CSS concept of combining selectors: IDs + Classes
 
 }
 
-/**/
+/* Media Queries */
+
 @media (max-width: 991px) {
 
     #title {
@@ -239,9 +165,6 @@ were merged using the Advanced CSS concept of combining selectors: IDs + Classes
 
 
 /* Call to Action */
-
-
-/* Footer */
 
 #mail {
     font-size: 40px;
@@ -262,6 +185,9 @@ text-decoration: none;
 a:hover{
     color:rgb(10, 96, 226);
 }
+
+
+/* Footer */
 
 #footer {
   
