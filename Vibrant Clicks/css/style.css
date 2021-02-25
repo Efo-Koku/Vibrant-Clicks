@@ -6,7 +6,7 @@ body {
 
 /* */
 #title {
-   background-color: #fff; 
+   background-color:#fff; 
    text-align: left;
  
 }
@@ -122,8 +122,6 @@ h1,h2,h3,h4,h5,h6 {
 
 .thumbnail {
     margin-bottom: 30px;
-      margin-left: auto;
-    margin-right: auto;
    
     
 }
@@ -173,7 +171,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .thumbnail {
     margin-bottom: 25px;
-  
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 }
