@@ -13,7 +13,7 @@ body {
  
 
  .Logo {
-    width: 35%;
+    width: 40%;
    
 }
 
@@ -122,6 +122,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .thumbnail {
     margin-bottom: 30px;
+   
+    
 }
 
 .about-me {
@@ -139,6 +141,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 
+
+
 .one-third-port {
     width: 29.333%;
     padding: 5%;
@@ -148,7 +152,14 @@ h1,h2,h3,h4,h5,h6 {
 
 }
 
-/* Media Queries */
+/* Media Queries 
+
+   .title-image {
+        position: static;
+        transform: rotate(0);
+  }
+
+*/
 
 @media (max-width: 991px) {
 
@@ -156,13 +167,16 @@ h1,h2,h3,h4,h5,h6 {
         text-align: center;
     }
 
-    .title-image {
-        position: static;
-        transform: rotate(0);
-  }
+ 
 
 .thumbnail {
     margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.carousel-image {
+size: 100%;
 }
 
 }
